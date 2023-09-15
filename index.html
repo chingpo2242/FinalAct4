@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <p for="id"><b>ID#</b></p>
+                        <input type="number" name="id" id="id">
+                    </div>
+                    <div>
+                        <p for="name"><b>Name</b></p>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <p for="contactnumber"><b>Contact Number</b></p>
+                        <input type="number" name="contactnumber" id="contactnumber">
+                    </div>
+                    <div>
+                        <pfor="school"><b>School</b></p>
+                        <input type="text" name="school" id="school">
+                    </div>  
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+                   
+                <td>
+                    
+                </td>
+            </td>
+        </tr>
+    </table>
+    <table class="list2" id="storeList">
+        <thead>
+            <tr>
+                <th>ID #</th>
+                <th>Name</th>
+                <th>Contact Number</th>
+                <th>School</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
